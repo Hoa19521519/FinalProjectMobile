@@ -20,7 +20,6 @@ import adapter.CookAdapter;
 import api.ApiLayCongThucNauAn;
 import interfaces.LayCongThucNauAn;
 
-
 public class MainActivity extends AppCompatActivity implements LayCongThucNauAn {
     GridView gdvDSMonAn;
     CookAdapter adapter;

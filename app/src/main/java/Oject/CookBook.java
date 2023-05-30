@@ -4,14 +4,19 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class CookBook {
-        private String tenMonAn,CapDo,LinkAnh;
+    private String tenMonAn,CapDo,LinkAnh;
+    /*
+    {
+    "tenMonAn":"",
+    "CapDo":"",
+    "LinkAnh":"",
+    }
+    */
+    public CookBook () {
 
+    }
 
-        public CookBook () {
-
-        }
-
-    public CookBook (JSONObject o) throws JSONException {
+    public CookBook(JSONObject o) throws JSONException {
         tenMonAn = o.getString("tenMonAn");
         CapDo = o.getString("CapDo");
         LinkAnh = o.getString("linkAnh");
